@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a=5,*p,*pp;
+    int a,*p,**pp;
+    printf("Enter Value Of a : ");
+    scanf("%d",&a);
     p=&a;
     pp=&p;
     printf("Value Of a is : %d\n",a);
