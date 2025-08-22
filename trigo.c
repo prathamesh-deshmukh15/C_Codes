@@ -10,5 +10,5 @@ int main(){
     printf("Sine:%.2f\n",sin_val);
     printf("Cosine:%.2f\n",cos_val);
     printf("Tangent:%.2f\n",tan_val);
-   
+    
 }
