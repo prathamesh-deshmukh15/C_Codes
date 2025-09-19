@@ -27,8 +27,13 @@ class Address{
     }
 };
 int main(){
-    Test *t1=new Test(123,"New York","NY");
-    Address a1("John",t1);
+    Test *t1=new Test(123,"Pune","Maharashtra");
+    Test *t2=new Test(124,"Bangalore","Karnataka");
+    Address a1("Prathamesh",t1);
+    Address a2("Aditya",t2);
+    cout<<"Details Of 1st Person: "<<endl;
     a1.display();
+    cout<<"\nDetails Of 2nd Person: "<<endl;
+    a2.display();
     return 0;
 }
